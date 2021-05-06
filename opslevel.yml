@@ -12,5 +12,11 @@ service:
   aliases:
   tags:
   repositories:
+  - name: jason-opslevel/dupe_test
+    path: "/"
+    provider: github
+  - name: jason-opslevel/a_test_service
+    path: "/"
+    provider: github
   tools:
   dependencies:
