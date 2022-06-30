@@ -3,7 +3,7 @@ version: 1
 service:
   name: a test service
   lifecycle:
-  tier:
+  tier: tier_4
   product:
   owner:
   language:
